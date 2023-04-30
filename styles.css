@@ -1,0 +1,28 @@
+table, tr, td, th{
+
+  padding: 10px;
+  
+  margin: auto;
+  
+  border: none;
+  
+  }
+  .deli{
+      padding: 10px;
+      margin: auto;
+      text-align: center;
+  }
+
+  form {
+      display: inline-block;
+      margin-left:auto;
+  width:50%;
+  /*min-width:300px;
+  width:60vw; */
+  margin-right: auto;
+  padding-left:30px;
+  padding-top: 30px;
+   } 
+   h1,h4{ text-align: center;}
+      
+  

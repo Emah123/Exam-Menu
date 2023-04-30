@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pete's Pizza Delivery</title>
+    <h1>Pete's Pizza Delivery</h1>
+    <h4>Online order form</h4>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body> 
+    <div class="fom">
+    <form>
+    <p><label for="name" required>*Name<input type="text" ></label>
+        <label for="tel" required>*Tel<input type="tel"></label></p>
+
+    <p><label for="Address" required>*Address<input type="text"></label>
+    <label for="email" required>*Email<input type="email"></label></p>
+    <label for="town" required>*Town/City<input type="text"></label><br><br>
+    <label for="Postcode" required>*Postcode<input type="number"></label><br><br>
+    <label for="tel" required>*Tel<input type="tel"></label><br><br>
+    <p>* required fields</p>
+    </form></div>
+    
+    <table>
+
+        <tr> <th> Topping</th> 
+            <th>Size</th> 
+            <th> Extras</th>
+        </tr>
+        <tr> <td><input type="radio" name="rad1">Margherita</td> 
+            <td><input type="radio" name="rad1">small</td> 
+            <td><input type="checkbox" value="front"> Mushrooms</td></tr>
+        <tr> <td><input type="radio" name="rad1">Four seasons</td> 
+            <td><input type="radio" name="rad1">Medium</td>
+             <td><input type="checkbox" value="front"> Green Papers</td></tr>
+        <tr> <td><input type="radio" name="rad1">Meat Feast</td> 
+            <td><input type="radio" name="rad1">large</td>
+             <td><input type="checkbox" value="front"> Anchovies</td></tr>
+        <tr> <td></td> <td></td> 
+            <td><input type="checkbox" value="front"> Extra Cheese</td></tr>
+        
+        </table>
+            
+  <div class="deli">
+   <label>Prefered delivery time:<input type="time"></label><br><br>
+    <label> Delivery instructions:</label><textarea rows="10" cols="60" class="sub" placeholder="Enter your comment here..."></textarea><br><br><br>
+    <input type="submit" class="sub" id="submit" value="Submit order"></b></label> </div>
+    
+
+</body>
+</html>
